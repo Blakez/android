@@ -390,14 +390,5 @@
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="pk" revision="master" />
   <project path="frameworks/base" name="android_frameworks_base" remote="pk" revision="master" />
   <project path="vendor/pk" name="android_vendor_pk" remote="pk" revision="master" />
-
-  <!-- Device -->
-  <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-10.1" />
-  <project name="CyanogenMod/android_device_samsung_d2att" path="device/samsung/d2att" remote="github" revision="cm-10.1" />
-  <project name="CyanogenMod/android_device_samsung_d2tmo" path="device/samsung/d2tmo" remote="github" revision="cm-10.1" />
-  <project name="CyanogenMod/android_device_samsung_msm8960-common" path="device/samsung/msm8960-common" remote="github" revision="cm-10.1" />
-  <project name="CyanogenMod/android_device_samsung_d2-common" path="device/samsung/d2-common" remote="github" revision="cm-10.1" />
-  <project name="CyanogenMod/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="cm-10.1" />
-  <project name="Blakez/ParanoidKANGdroid-Kernel" path="kernel/samsung/d2" remote="github" revision="master" />
-
+  
 </manifest>
