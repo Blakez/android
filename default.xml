@@ -23,9 +23,6 @@
            sync-j="4" />
 
   <!-- CM -->
-  <project path="build" name="CyanogenMod/android_build">
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" />
   <project path="bionic" name="CyanogenMod/android_bionic" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
@@ -390,5 +387,9 @@
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="pk" revision="master" />
   <project path="frameworks/base" name="android_frameworks_base" remote="pk" revision="master" />
   <project path="vendor/pk" name="android_vendor_pk" remote="pk" revision="master" />
+  <project path="build" name="Blakez/android_build">
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <copyfile src="build-pk.sh" dest="build-pk.sh" />
+  </project>
   
 </manifest>
