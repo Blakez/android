@@ -386,7 +386,6 @@
   <project path="packages/providers/ContactsProvider" name="PAC-man/android_packages_providers_ContactsProvider" />
   <project path="packages/apps/Calculator" name="PAC-man/android_packages_apps_Calculator" />
   <project path="packages/apps/Calendar" name="PAC-man/android_packages_apps_Calendar" />
-  <project path="packages/apps/Contacts" name="PAC-man/android_packages_apps_Contacts" />
   <project path="packages/apps/Mms" name="PAC-man/android_packages_apps_Mms" />
   <project path="packages/inputmethods/LatinIME" name="PAC-man/android_packages_inputmethods_LatinIME" />
   <project path="frameworks/native" name="PAC-man/android_frameworks_native" />
